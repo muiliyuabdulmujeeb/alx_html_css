@@ -171,7 +171,7 @@ body {
 
 .videos-list {
     height: 450px;
-    background-color: aqua; /* change to white later */
+    background-color: #fff;
 }
 
 .video-list-h2 {
@@ -298,7 +298,7 @@ body {
 
 .faq{
     height: 850px;
-    background-color: aquamarine;
+    background-color: #fff;
 }
 
 .faq-h2 {
