@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/hero-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 110vh;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.header-nav {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.empty {
+    height: 3rem;
+    width: 80vw;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav-li {
+    margin-left: 3rem;
+}
+
+.main-h1{
+    font-size: 120px;
+    font-weight: 700;
+    font-family:'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: #fff;
+    margin-top: 13rem;
+    margin-left: 20rem;
+    
+}
+
+.main-child-div {
+    margin-left: 28rem;
+}
+.main-child-span {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: #fff;
+    margin-left: 5rem;
+}
+
+.section-btn {
+    display: block;
+    margin: 2rem auto 6rem;
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    border: 1px solid #C271FF;
+    color: #fff;
+    border-radius: 22px;
+    margin-left: 38rem;
+}
+
+.first-h2{
+    text-align: center;
+    margin: 5rem auto;
+    margin-top: 8rem;
+    font-size: 2rem;
+    color: #fff;
+}
+.learn{
+    color: #C271FF;
+}
+
+.pros{
+    display: flex;
+    margin-bottom: 4rem;
+}
+.pros-child-h3, .pros-child-p{
+    color: #fff;
+    width: 150px;
+}
+.pros-child{
+    margin-right: 12rem;
+}
+.bruce-walters{
+    border-radius: 50%;
+}
+.pros-child > img {
+    width: 150px;
+    height: 150px;
+}
+.pros-child-h3{
+    width: 150px;
+    font-size: 18px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 900;
+    text-align: center;
+}
+
+.pros-child-p {
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.quotes {
+    margin-top: 4.4rem;
+    height: 392px;
+    background-color: #C271FF;
+}
+.quotes-section {
+    height: 392px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.quotes-section > div > img {
+    width: 150px;
+    height: 150px;
+}
+
+.blockquote {
+    margin-left: 2rem;
+    width: 730px;
+    height: 68px;
+    line-height: 33.6px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+}
+
+/* .quotes-text {
+    margin: auto 0;
+} */
+
+.quotes-text-h3, .quotes-text-p {
+    margin-left: 2rem;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.quotes-text-p {
+    font-weight: 400;
+}
+
+.videos-list {
+    height: 450px;
+    background-color: aqua; /* change to white later */
+}
+
+.video-list-h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 100;
+}
+
+.video-list-section{
+    margin-top: 5rem;
+}
+.video-list-span {
+    font-weight: 800;
+    color: #C271FF;
+}
+
+.video-list-flex-container {
+    display: flex;
+}
+
+.video-list-img {
+    width: 255px;
+    height: 154px;
+    margin-top: 30px;
+}
+.video-list-h3{
+    font-size: 16px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 700;
+    margin: 10px 0;
+}
+.video-list-p {
+    font-size: 14px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 400;
+    line-height: 24px;
+}
+.video-list-img2 {
+    width: 30px;
+    height: 30px;
+}
+.h4-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-list-star {
+    width: 107px;
+    height: 15px;
+    display: flex;
+    color: #C271FF;
+}
+
+
+.video-list-star-p-container {
+    max-width: 255px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.membership {
+    height: 502px;
+    background-color: black;
+}
+
+.membership-h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 700;
+    color: #fff;
+}
+
+.membership-flex-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.membership-flex-item {
+    width: 257px;
+    height: 153px;
+}
+.membership-flex-item > img {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    height: 35.35px;
+    width: 43.67px;
+    text-align: center;
+}
+
+.membership-flex-item > h3 {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 600;
+    color: #fff;
+}
+
+.membership-flex-item > p {
+    font-size: 14px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 400;
+    color: #fff;
+    line-height: 26px;
+}
+
+.membership-button {
+    margin: 5rem 33rem;
+    width: 162px;
+    height: 44px;
+    border: 0px;
+    border-radius: 16px;
+    background-color: #C271FF;
+    font-size: 14px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 600;
+    color: #fff;
+}
+
+.faq{
+    height: 850px;
+    background-color: aquamarine;
+}
+
+.faq-h2 {
+    font-size: 60px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+
+.faq-outer-container {
+    margin: 0 auto;
+    width: 920px;
+    height: 707px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.faq-content {
+    width: 350px;
+    height: 242px;
+}
+
+.faq-content > h3 {
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 700;
+    color: #000;
+}
+.faq-content > div {
+    font-size: 14px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+}
+.footer{
+    height: 249px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex-container > img {
+    width: 169px;
+    height: 30px;
+}
+
+.footer-div-flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    height: 30px;
+}
+
+.footer-p {
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'source sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 400;
+    color: #fff;
+}
